@@ -20628,10 +20628,10 @@ cr.behaviors.Sin = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Browser,
-	cr.plugins_.Text,
-	cr.plugins_.Touch,
-	cr.plugins_.Sprite,
 	cr.plugins_.TiledBg,
+	cr.plugins_.Text,
+	cr.plugins_.Sprite,
+	cr.plugins_.Touch,
 	cr.behaviors.Platform,
 	cr.behaviors.Sin,
 	cr.system_object.prototype.cnds.IsGroupActive,
