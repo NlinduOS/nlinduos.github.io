@@ -20665,6 +20665,7 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.cnds.Every,
 	cr.system_object.prototype.acts.CreateObject,
 	cr.system_object.prototype.exps.random,
+	cr.plugins_.Sprite.prototype.acts.MoveToBottom,
 	cr.plugins_.Sprite.prototype.exps.Y,
 	cr.plugins_.Text.prototype.acts.MoveToTop,
 	cr.plugins_.Sprite.prototype.cnds.IsOnScreen,
