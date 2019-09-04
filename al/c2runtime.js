@@ -24142,10 +24142,10 @@ cr.behaviors.scrollto = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.AJAX,
 	cr.plugins_.Audio,
+	cr.plugins_.Touch,
 	cr.plugins_.Spritefont2,
 	cr.plugins_.TiledBg,
 	cr.plugins_.Sprite,
-	cr.plugins_.Touch,
 	cr.behaviors.Platform,
 	cr.behaviors.Flash,
 	cr.behaviors.Anchor,
