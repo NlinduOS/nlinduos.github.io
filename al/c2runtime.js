@@ -25041,7 +25041,7 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.SetTimescale,
 	cr.plugins_.Sprite.prototype.acts.StartAnim,
 	cr.plugins_.Text.prototype.acts.SetText,
-	cr.plugins_.OKAPI.prototype.acts.InitUser,
-	cr.plugins_.OKAPI.prototype.cnds.OnInitDone,
+	cr.plugins_.OKAPI.prototype.acts.CallForUserData,
+	cr.plugins_.OKAPI.prototype.cnds.OnUserdataLoaded,
 	cr.plugins_.OKAPI.prototype.exps.GetUserFirstName
 ];};
